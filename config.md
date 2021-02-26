@@ -8,7 +8,7 @@ int main(void)
   return 0;
 }
 
-	.text
+<p>.text
 .globl _main
 _main:
 	pushl	%ebp
@@ -17,7 +17,7 @@ _main:
 	movl	$0, %eax
 	leave
 	ret
-	.subsections_via_symbols
+	.subsections_via_symbols</p>
   
   
   
